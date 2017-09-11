@@ -1,0 +1,6 @@
+<div class="col-md-12">
+  <p>
+    <strong>Commented by: <%= @comment.user.name %></strong>
+    <span>Comment: <%= @comment.message %></span>
+  </p>
+</div>
